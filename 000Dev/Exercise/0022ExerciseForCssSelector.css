@@ -1,0 +1,66 @@
+body{
+	background: #bdc3c7;
+}
+h1{
+	color: #9b59b6;
+}
+h2{
+	color: orange;
+}
+li{
+	color: blue;
+}
+div{
+	background: yellow;
+}
+/*body{
+	border: solid red 1px;
+}*/
+body{
+	border: solid red 1px;
+}
+.hello{
+	background: white;
+}
+#special{
+border: solid blue 2px;
+}
+div p {
+	font-size: 25px;
+	font-style: italic;
+}
+input[type="text"]{
+	background: blue;
+}
+/*make sure that all checked box are moved to right*/
+input:checked{
+	margin-left: 50px;
+}
+input{
+	border: solid red 3px;
+}
+/*make the <em> in the 3rd <div> divison have some unique color*/
+div:nth-of-type(3) em{
+	color: rgb(0,0,251);
+	font-size:20px;
+}
+/*make all <h2> are upper case*/
+h2{
+	text-transform: uppercase;
+}
+label{
+	text-transform: uppercase;
+}
+/*make the first letter of id = special green and 100px font size*/
+#special:first-letter{
+	color: green;
+	font-size: 100px;
+}
+/*make sure <h1> element's color change to blue when hovers*/
+h1:hover{
+	color: blue;
+}
+/*make the elements that have been visited red*/
+a:visited{
+	color: red;
+}

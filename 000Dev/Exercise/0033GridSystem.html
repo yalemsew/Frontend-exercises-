@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid system</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- there are four different size in grid system -->
+	<style type="text/css">
+		.pink{
+			background-color:#768953; 
+			border: 0.5px solid red;
+		}
+		.orange{
+			background-color:orange;
+			border: 0.5px solid black;
+		}
+	</style>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<!-- nested row -->
+				<div class="row">
+					<div class="col-md-6 orange">first half</div>
+					<div class="col-md-6 orange">second half</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pink">col lg 8</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pink">col lg 2</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pink">col lg 2</div>
+		
+		</div>
+		<!-- <div class="row">
+			<div class="col-lg-6 pink">col lg 6</div>
+			<div class="col-lg-6 pink">col lg 6</div>
+		</div> -->
+	</div>
+
+</body>
+</html>

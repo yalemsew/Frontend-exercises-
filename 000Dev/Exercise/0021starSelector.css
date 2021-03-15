@@ -1,0 +1,32 @@
+/* element selector 
+h1{}
+*/
+
+
+/* class selector
+.className
+*/
+
+
+/* ID selector
+#IDname
+*/
+
+
+/* star selector */
+
+* {
+    border: solid lightblue 1px;
+}
+
+
+/* descendant selector */
+
+
+/* adjusent selector */
+
+
+/* attribute selector */
+
+
+/* nth selector */

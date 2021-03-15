@@ -1,0 +1,14 @@
+img {
+    float: left;
+    width:  30%;
+    height: 250px;
+    object-fit: cover;
+    margin: 1.66%;
+}
+p{
+	font-family:Merriweather;
+	border-bottom: 3px red solid;
+	width:30%;
+	margin-left: 1.66%;
+	padding-bottom: 20px;
+}
