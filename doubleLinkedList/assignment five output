@@ -1,0 +1,80 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/yalem/idea2/lib/idea_rt.jar=36811:/home/yalem/idea2/bin -Dfile.encoding=UTF-8 -classpath /home/yalem/IdeaProjects/assignment4/out/production/assignment4 doubleLinkedList.StudentList
+press 1 for creating
+press 2 for inserting at the beginning:
+press 3 for inserting at the end:
+press 4 to insert at any position:
+press 5 to delete from the beginning
+press 6 to delete from the end
+press 7 to delete from any position
+press 8 to search with registration number
+press 9 to display from front to end
+press 10 to display from end to front
+press any key greater than 10 to exist
+Enter the function key which you want
+1
+start to creat a node
+enter students registration no
+20
+enter students mark
+86
+Enter the function key which you want
+2
+start inserting of Nodes in the beginning
+enter students registration no
+21
+enter students mark
+76
+Enter the function key which you want
+3
+enter new node at the end
+enter students registration no
+29
+enter students mark
+87
+Enter the function key which you want
+4
+Enter the position number which you want to insert
+3
+enter students registration no
+25
+enter students mark
+93
+Enter the function key which you want
+9
+student registration number is:21 and mark is: 76.0
+student registration number is:20 and mark is: 86.0
+student registration number is:25 and mark is: 93.0
+student registration number is:29 and mark is: 87.0
+Enter the function key which you want
+8
+Enter the required registration number:
+25
+present student registration number: 25 and mark is: 93.0
+Enter the function key which you want
+7
+Enter the delete position
+2
+the required Node is deleted successfully 
+Enter the function key which you want
+9
+student registration number is:21 and mark is: 76.0
+student registration number is:25 and mark is: 93.0
+student registration number is:29 and mark is: 87.0
+Enter the function key which you want
+10
+student registration number is:29 and mark is: 87.0
+student registration number is:25 and mark is: 93.0
+student registration number is:21 and mark is: 76.0
+Enter the function key which you want
+5
+first Node is deleted successfully
+Enter the function key which you want
+9
+student registration number is:25 and mark is: 93.0
+student registration number is:29 and mark is: 87.0
+Enter the function key which you want
+12
+you get out of the system, Thank you!!
+
+Process finished with exit code 0
+
