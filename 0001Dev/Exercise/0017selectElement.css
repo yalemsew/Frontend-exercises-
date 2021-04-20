@@ -1,0 +1,31 @@
+/*  we can give specfic future for each elements by using their id and use "#* on css/
+/* and we can give the same future for some group of elemenebt by using "class ="uniqueName" in html and 
+.uniquName in css instead of #uniqueName  */
+
+body{
+	background: #AB67FA;
+}
+/* to remove the border we can use rgba color format and give "a = 0"  or we can put the pixl=0px*/
+#home{
+	color: green;
+	border: rgba(132,56,78,0) 3px solid;
+	background: yellow;
+}
+#future{
+	color: yellow;
+	border: rgba(9,56,78,1) 0px solid;
+	background: #0065C8;
+}
+#current{
+	color: red;
+	border: rgba(0,0,0,0) 3px solid;
+	/* in css using hexadecimal number capital letter and small letters are treated the same*/
+	background: #af7800;
+	text-decoration: line-through;
+}
+.same{
+	/* this future will extend all <ul> space not only <li>*/
+	color:#099570;
+	border: #098768 0px solid;
+	background: #bacbef;
+}

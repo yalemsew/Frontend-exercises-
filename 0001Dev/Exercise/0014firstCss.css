@@ -1,0 +1,13 @@
+h1{
+	/*
+	hexadecimal way*/
+	color:#A3B45C;
+}
+h4{
+	/*RGB way*/
+	color:rgb(255,45,255);
+}
+h5{
+	/*rgba...a is for transparency...a is 0 to 1*/
+	color: rgba(121,45,69,.4);
+}

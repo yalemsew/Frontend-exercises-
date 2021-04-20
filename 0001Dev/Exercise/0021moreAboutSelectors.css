@@ -1,0 +1,54 @@
+ /*element selector 
+h1{}
+*/
+
+
+/* class selector
+.className
+*/
+
+
+/* ID selector
+#IDname
+*/
+
+
+/* star selector */
+
+* {
+    border: solid lightblue 1px;
+}
+
+
+/* descendant selector ...hancker tag inside of li containing "a*/
+li a {
+	color: red;
+}
+
+/* adjusent selector... it works after the selected elements ...without plus(+) it would be descendant selector*/
+h3 + ul{
+	border: dashed green 4px;
+}
+
+/* attribute selector ...to work on the specific text or url*/
+a[href="http://www.google.com"]{
+	background:#219000;
+}
+/*we can use type for text in attribute selector*/
+input[type="checkbox"]{
+	background: yellow;
+}
+
+
+/* nth selector */
+/*it selects the 3rd of ul*/
+ul:nth-of-type(3){
+	background: yellow;
+}
+/*it selects the 3rd of each li*/
+li:nth-of-type(3){
+	background: yellow;
+}
+p{
+	text-decoration: underline;
+}
